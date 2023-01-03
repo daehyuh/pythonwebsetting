@@ -90,7 +90,7 @@ python3 manage.py runserver # 장고 프로젝트 실행하기
 python3 manage.py startapp main # 첫 페이지 만들기
 
 # 설정
-vi web/settings.py
+vim web/settings.py
 
 # 40번째 줄에
 INSTALLED_APPS = [
@@ -104,7 +104,7 @@ INSTALLED_APPS = [
 ]
 
 mkdir web/main/templates/main
-vi index.html
+vim index.html
 
 <!DOCTYPE html>
 <html lang="en">
