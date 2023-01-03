@@ -16,6 +16,13 @@ python3-futurize
 python3-pasteurize
 python3.8
 ```
+
+# Django 4.0.4
+```sh
+pip install Django==4.0.4
+
+```
+
 # Mysql 8.0.31
 password : vitasoft1234
 https://dev.mysql.com/downloads/mysql/
@@ -60,6 +67,12 @@ info.php
 <?php phpinfo(); ?> 
 
 :wq
+```
+# Anaconda
+```sh
+$ sudo gedit ~/.bashrc
+export PATH=~/anaconda3/bin:~/anaconda3/condabin:$PATH
+$ source ~/.bashrc
 ```
 
 
