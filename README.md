@@ -17,12 +17,6 @@ python3-pasteurize
 python3.8
 ```
 
-# Django 4.0.4
-```sh
-pip install Django==4.0.4
-
-```
-
 # Mysql 8.0.31
 password : vitasoft1234
 https://dev.mysql.com/downloads/mysql/
@@ -81,4 +75,19 @@ conda init
 conda activate 
 ```
 
+
+# conda + Django 4.0.4
+```sh
+conda create -n Django_env
+pip install Django
+
+cd 바탕화면/
+django-admin --version
+django-admin startproject web
+cd web/
+python3 manage.py migrate
+python3 manage.py createsuperuser
+nano web/settings.py
+
+```
 
