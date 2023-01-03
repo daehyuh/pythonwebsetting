@@ -49,8 +49,17 @@ sudo mysql -u root -p;
 sudo apt update
 sudo apt-get install php
 
+#/var/www/html/info.php 파일을 생성해줍니다.
 
-sudo apt install phpmyadmin
-
-
+cd /var/www/html/
+sudo touch info.php
+sudo vi info.php
 ```
+info.php
+```php
+<?php phpinfo(); ?> 
+
+:wq
+```
+
+
