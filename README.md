@@ -85,9 +85,7 @@ cd 바탕화면/
 django-admin --version
 django-admin startproject web
 cd web/
-python3 manage.py migrate
-python3 manage.py createsuperuser
-nano web/settings.py
+python3 manage.py runserver
 
 ```
 
