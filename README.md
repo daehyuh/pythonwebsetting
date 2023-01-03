@@ -1,9 +1,8 @@
-# pythonwebsetting
-
 # version
 
-Ubuntu 20.04.5 LTS
-Python 3.8.10
+# Ubuntu 20.04.5 LTS
+
+# Python 3.8.10
 ```sh
 > python3 -V
 Python 3.8.10
@@ -17,7 +16,7 @@ python3-futurize
 python3-pasteurize
 python3.8
 ```
-Mysql 8.0
+# Mysql 8.0
 
 https://dev.mysql.com/downloads/mysql/
 파일설치 
@@ -40,7 +39,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '비밀�
 
 
 
-#php
+# php
 ```sh
 sudo apt update
 sudo apt-get install php
