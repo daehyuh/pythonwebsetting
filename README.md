@@ -44,7 +44,7 @@ sudo mysql -u root -p;
 
 
 
-# php
+# php 7.4
 ```sh
 sudo apt update
 sudo apt-get install php
