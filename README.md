@@ -73,6 +73,10 @@ info.php
 $ sudo gedit ~/.bashrc
 export PATH=~/anaconda3/bin:~/anaconda3/condabin:$PATH
 $ source ~/.bashrc
+
+# (base) 안보이게 하는거
+# conda config --set auto_activate_base False
+
 conda init
 conda activate 
 ```
