@@ -85,7 +85,39 @@ cd 바탕화면/
 django-admin --version
 django-admin startproject web
 cd web/
-python3 manage.py runserver
+python3 manage.py migrate
+python3 manage.py runserver # 장고 프로젝트 실행하기
+python3 manage.py startapp main # 첫 페이지 만들기
+
+# 설정
+vi web/settings.py
+
+# 40번째 줄에
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'main',
+]
+
+mkdir web/main/templates/main
+vi index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    장고 첫페이지!
+</body>
+</html>
+
+main/views.py
 
 ```
 
