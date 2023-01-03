@@ -16,8 +16,8 @@ python3-futurize
 python3-pasteurize
 python3.8
 ```
-# Mysql 8.0
-
+# Mysql 8.0.31
+password : vitasoft1234
 https://dev.mysql.com/downloads/mysql/
 파일설치 
 ```sh
@@ -35,6 +35,11 @@ mysql -u root -p
 sudo mysql -u root -p
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '비밀번호입력';
+```
+```sh
+# 디비접속
+sudo mysql -u root -p;
+>vitasoft1234
 ```
 
 
